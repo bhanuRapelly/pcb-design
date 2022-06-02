@@ -28,16 +28,14 @@ $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 62987A15
-P 5700 600
-F 0 "#PWR0101" H 5700 450 50  0001 C CNN
-F 1 "+5V" H 5715 773 50  0000 C CNN
-F 2 "" H 5700 600 50  0001 C CNN
-F 3 "" H 5700 600 50  0001 C CNN
-	1    5700 600 
+P 5700 650
+F 0 "#PWR0101" H 5700 500 50  0001 C CNN
+F 1 "+5V" H 5715 823 50  0000 C CNN
+F 2 "" H 5700 650 50  0001 C CNN
+F 3 "" H 5700 650 50  0001 C CNN
+	1    5700 650 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 600  5700 1000
 Wire Wire Line
 	5800 1100 5800 1000
 Wire Wire Line
@@ -584,4 +582,14 @@ Text GLabel 8950 3250 1    50   Input ~ 0
 COL0
 Text GLabel 9450 3250 1    50   Input ~ 0
 COL1
+Text GLabel 6400 3300 2    50   Input ~ 0
+ROW0
+Text GLabel 6400 2000 2    50   Input ~ 0
+ROW1
+Text GLabel 6400 1900 2    50   Input ~ 0
+COL0
+Text GLabel 6400 1800 2    50   Input ~ 0
+COL1
+Wire Wire Line
+	5700 650  5700 1000
 $EndSCHEMATC
